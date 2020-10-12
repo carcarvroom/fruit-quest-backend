@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_08_19_173244) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "levels", force: :cascade do |t|
     t.string "level_name"
     t.string "difficulty_level"
