@@ -1,7 +1,7 @@
 
 # Fruit Quest 
 
-![fruit quest logo](./src/fruit-quest-logo.png)
+![fruit quest logo](./public/fruit-quest-logo.png)
 
 ## Description
 
