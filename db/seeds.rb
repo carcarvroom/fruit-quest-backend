@@ -11,16 +11,16 @@
 # Score.destroy_all
 
 
-# user1 = User.create(username: 'karamo', password: '123')
-# user2 = User.create(username: 'jonathon', password: '123')
-# user3 = User.create(username: 'antoni', password: '123')
-# user4 = User.create(username: 'bobby', password: '123')
-# user5 = User.create(username: 'tan', password: '123')
+user1 = User.create(username: 'karamo', password: '123')
+user2 = User.create(username: 'jonathon', password: '123')
+user3 = User.create(username: 'antoni', password: '123')
+user4 = User.create(username: 'bobby', password: '123')
+user5 = User.create(username: 'tan', password: '123')
 
-# level1 = Level.create(level_name: 'Pineapple', difficulty_level: 'Easy')
-# level2 = Level.create(level_name: 'Cherry', difficulty_level: 'Medium')
-# level3 = Level.create(level_name: 'Melon', difficulty_level: 'Hard')
-# level4 = Level.create(level_name: 'Banana', difficulty_level: 'Hard')
+level1 = Level.create(level_name: 'Pineapple', difficulty_level: 'Easy')
+level2 = Level.create(level_name: 'Cherry', difficulty_level: 'Medium')
+level3 = Level.create(level_name: 'Melon', difficulty_level: 'Hard')
+level4 = Level.create(level_name: 'Banana', difficulty_level: 'Hard')
 
 # score1 = Score.create(score: 19, user: User.first, level: level1)
 # score2 = Score.create(score: 77, user: User.second, level: level1)
